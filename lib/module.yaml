@@ -3,6 +3,13 @@ product:
   platforms:
     - jvm
 
+dependencies:
+  - $libs.kotlinx.io.core
+  - $libs.kotlinx.datetime
+
+test-dependencies:
+  - $libs.dachlatten.io
+
 settings:
   kotlin:
     serialization: enabled

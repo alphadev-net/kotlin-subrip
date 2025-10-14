@@ -1,5 +1,9 @@
 [versions]
+dachlatten = "0.0.100"
 kotlinx-datetime = "0.7.1"
+kotlinx-io = "0.8.0"
 
 [libraries]
+dachlatten-io = { module = "de.sipgate:dachlatten-io", version.ref = "dachlatten" }
 kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinx-datetime" }
+kotlinx-io-core = { module = "org.jetbrains.kotlinx:kotlinx-io-core", version.ref = "kotlinx-io" }
