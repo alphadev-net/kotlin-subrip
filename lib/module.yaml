@@ -1,0 +1,15 @@
+product:
+  type: lib
+  platforms:
+    - jvm
+
+settings:
+  kotlin:
+    serialization: enabled
+    optIns:
+      - kotlin.time.ExperimentalTime
+  publishing:
+    name: kotlin-subrip
+
+apply:
+  - ../publish.module-template.yaml
