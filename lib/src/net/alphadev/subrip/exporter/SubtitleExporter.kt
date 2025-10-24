@@ -2,8 +2,7 @@ package net.alphadev.subrip.exporter
 
 import net.alphadev.subrip.format.Subtitle
 
-fun formatSubtitle(subtitle: Subtitle): String = try {
-    //Json.encodeToString(JsonFeedInternal.serializer(), jsonFeed.toJsonFeedInternal()) + "\n"
+fun formatSubtitle(subtitle: List<Subtitle>): String = try {
     ""
 } catch (ex: Throwable) {
     throw SubtitleExportException(cause = ex)

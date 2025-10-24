@@ -1,8 +1,10 @@
 package net.alphadev.subrip.format
 
-import kotlinx.serialization.Serializable
+import kotlin.time.Duration
 
-@Serializable
 data class Subtitle(
-    val blocks: List<Block>
+    val sequenceNumber: Int,
+    val startTime: Duration,
+    val endTime: Duration,
+    val subtitle: String
 )
