@@ -1,6 +1,6 @@
 [versions]
 dachlatten = "0.0.100"
-kotlinx-datetime = "0.7.1"
+kotlinx-datetime = "0.7.1-0.6.x-compat"
 kotlinx-io = "0.8.0"
 
 [libraries]
