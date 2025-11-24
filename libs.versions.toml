@@ -1,7 +1,7 @@
 [versions]
 dachlatten = "0.0.101"
 kotlinx-datetime = "0.7.1"
-kotlinx-io = "0.8.1"
+kotlinx-io = "0.8.2"
 
 [libraries]
 dachlatten-io = { module = "de.sipgate:dachlatten-io", version.ref = "dachlatten" }
