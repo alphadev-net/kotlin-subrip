@@ -1,8 +1,8 @@
 # Kotlin SubRip Parser
 
-[![Build Status](https://github.com/janseeger/kotlin-subrip/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/janseeger/kotlin-subrip/actions/workflows/unit-tests.yml)
-[![GitHub License](https://img.shields.io/github/license/janseeger/kotlin-subrip)](https://github.com/janseeger/kotlin-subrip/blob/main/LICENSE)
-[![GitHub Tag](https://img.shields.io/github/v/tag/janseeger/kotlin-subrip)](https://github.com/janseeger/kotlin-subrip/tags)
+[![Build Status](https://github.com/alphadev-net/kotlin-subrip/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/alphadev-net/kotlin-subrip/actions/workflows/unit-tests.yml)
+[![GitHub License](https://img.shields.io/github/license/alphadev-net/kotlin-subrip)](https://github.com/alphadev-net/kotlin-subrip/blob/main/LICENSE)
+[![GitHub Tag](https://img.shields.io/github/v/tag/alphadev-net/kotlin-subrip)](https://github.com/alphadev-net/kotlin-subrip/tags)
 
 A standalone library that allows easy parsing and writing of SubRip (.srt) Files.
 
