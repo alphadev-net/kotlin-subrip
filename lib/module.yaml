@@ -13,6 +13,8 @@ test-dependencies:
 settings:
   kotlin:
     serialization: enabled
+    freeCompilerArgs:
+      - -Xexplicit-api=warning
   publishing:
     name: kotlin-subrip
 

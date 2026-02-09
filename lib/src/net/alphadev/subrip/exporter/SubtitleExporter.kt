@@ -2,7 +2,7 @@ package net.alphadev.subrip.exporter
 
 import net.alphadev.subrip.format.Subtitle
 
-fun formatSubtitle(subtitles: List<Subtitle>): String = try {
+public fun formatSubtitle(subtitles: List<Subtitle>): String = try {
     subtitles.mapIndexed { idx, sub ->
         val sequenceNumber = idx + 1
         val startTime = sub.startTime.formatTime()

@@ -2,7 +2,7 @@ package net.alphadev.subrip.import
 
 import net.alphadev.subrip.format.Subtitle
 
-fun parseSubtitle(input: String): List<Subtitle> = try {
+public fun parseSubtitle(input: String): List<Subtitle> = try {
     val subtitles = mutableMapOf<Int, Subtitle>()
     val groups = input.trim().split(Regex("\n\\s*\n+"))
 
