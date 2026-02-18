@@ -1,5 +1,5 @@
 [versions]
-dachlatten = "0.0.101"
+dachlatten = "0.0.108"
 kotlinx-datetime = "0.7.1"
 kotlinx-io = "0.8.2"
 
