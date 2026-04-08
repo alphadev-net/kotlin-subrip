@@ -15,6 +15,6 @@ jobs:
   update-amper:
     uses: alphadev-net/action-workflows/.github/workflows/update-amper.yml@main
     with:
-      force_update: ${{ inputs.force_update || 'false' }}
+      force_update: ${{ inputs.force_update || false }}
     permissions:
       contents: write
